@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 50px;
     background-color: #010012;
 }
 
@@ -15,11 +14,12 @@ body {
     src: url(fonte/aesymatt.ttf);
   }
 
-h1 {
+#nome {
     color: #ffffff;
     font-family: ancientModern;
-    font-size: 150px;
+    font-size: 90px;
     font-weight: 100;
+    align-items: center;
 }
 
 p {
@@ -30,19 +30,31 @@ p {
 }
 
 #botao {
-    background-color: #ffffff;
-    color: #010012;
+    background-color: #362db8;
+    color: #ffffff;
     padding: 10px 20px;
-    border: 50px;
+    border: 10px;
     border-color: #362db8;
     cursor: pointer;
     font-family: aesymatt;
     width: 130px;
     height: 50px;
     font-size: 20px;
+    border-style: ridge;
 }
 
-button:hover {
-    background-color: #0056b3;
+#botao:hover {
+    background-color: #010012;
     transition: 0.5s;
+    color: #ffffff;
+}
+
+#menu {
+    height: 100%;
+    margin-left: auto;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
 }
