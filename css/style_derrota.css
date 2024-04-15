@@ -1,0 +1,51 @@
+body{
+    background-color: #000000;
+}
+
+#caveira {
+    display: block;
+	margin: 100px auto 0px auto;
+}
+
+@font-face {
+    font-family: ancientModern;
+    src: url(../fonte/ancient-modern-tales.ttf);
+}
+
+  @font-face {
+    font-family: aesymatt;
+    src: url(../fonte/aesymatt.ttf);
+}
+
+#derrota{
+    font-family: ancientModern;
+    color: #e70f0f;
+    text-align: center;
+    font-size: 40px;
+}
+
+#errou{
+    font-family: aesymatt;
+    color: #e70f0f;
+    font-weight: 100;
+    text-align: center;
+}
+
+#reiniciar {
+    border: none;
+    color: #e70f0f;
+    padding: 7px 17px;
+    background-color: #000000;
+    cursor: pointer;
+    font-family: aesymatt;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    display: block;
+    margin: 0px auto 0px auto;
+    text-decoration: underline #000000;
+}
+
+#reiniciar:hover {
+    border: 2px solid #e70f0f;
+}
