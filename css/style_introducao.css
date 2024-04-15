@@ -1,0 +1,31 @@
+body{
+    background-color: #010012;
+}
+
+#bar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 575px;
+    opacity: 40%;
+}
+
+#continuar {
+    border: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    background-color: #010012;
+    cursor: pointer;
+    font-family: aesymatt;
+    width: 80px;
+    height: 50px;
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline #010012;
+}
+
+#continuar:hover {
+    border: 2px solid #ffffff;
+}

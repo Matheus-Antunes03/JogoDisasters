@@ -6,12 +6,12 @@ body {
 
 @font-face {
     font-family: ancientModern;
-    src: url(fonte/ancient-modern-tales.ttf);
+    src: url(../fonte/ancient-modern-tales.ttf);
   }
 
   @font-face {
     font-family: aesymatt;
-    src: url(fonte/aesymatt.ttf);
+    src: url(../fonte/aesymatt.ttf);
   }
 
 #nome {
@@ -19,7 +19,7 @@ body {
     font-family: ancientModern;
     font-size: 90px;
     font-weight: 100;
-    align-items: center;
+    margin: 100px 0px 0px 120px;
 }
 
 p {
@@ -30,28 +30,25 @@ p {
 }
 
 #botao {
-    background-color: #362db8;
+    border: none;
     color: #ffffff;
     padding: 10px 20px;
-    border: 10px;
-    border-color: #362db8;
+    background-color: #010012;
     cursor: pointer;
     font-family: aesymatt;
-    width: 130px;
-    height: 50px;
-    font-size: 20px;
-    border-style: ridge;
+    width: 160px;
+    height: 80px;
+    font-size: 30px;
+    margin: 100px 0px 0px 100px;
 }
 
 #botao:hover {
-    background-color: #010012;
-    transition: 0.5s;
-    color: #ffffff;
+    border: 2px solid #ffffff;
 }
 
 #menu {
-    height: 100%;
-    margin-left: auto;
+    height: 608px;
+    margin-left: 130px;
 }
 
 #container{
