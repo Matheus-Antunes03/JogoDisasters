@@ -1,0 +1,52 @@
+body{
+    background-color: #010012;
+}
+
+#tiro{
+    display: block;
+	margin: auto;
+    width: 300px;
+}
+
+@font-face {
+    font-family: ancientModern;
+    src: url(../fonte/ancient-modern-tales.ttf);
+}
+
+  @font-face {
+    font-family: aesymatt;
+    src: url(../fonte/aesymatt.ttf);
+}
+
+#errado{
+    font-family: ancientModern;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#levou_tiro{
+    font-family: aesymatt;
+    font-weight: 200;
+    text-align: center;
+    color: #ffffff;
+}
+
+#continuar {
+    border: none;
+    color: #ffffff;
+    padding: 7px 17px;
+    background-color: #010012;
+    cursor: pointer;
+    font-family: aesymatt;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    display: block;
+    margin: 20px auto 0px auto;
+    text-decoration: underline #010012;
+}
+
+#continuar:hover {
+    border: 2px solid #ffffff;
+}
