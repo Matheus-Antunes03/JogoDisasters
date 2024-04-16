@@ -2,12 +2,12 @@ body{
     background-color: #010012;
 }
 
-#bar{
+#figura{
     width: 45%;
-    opacity: 50%;
+    opacity: 60%;
     position: absolute;
-    margin-left: 25%;
-    margin-top: 3%;
+    margin-left: 28%;
+    margin-top: 2%;
 }
 
 @font-face {
@@ -15,7 +15,7 @@ body{
     src: url(../fonte/aesymatt.ttf)
   }
 
-#continuar {
+#voltar {
     border: none;
     color: #ffffff;
     background-color: #010012;
@@ -26,13 +26,13 @@ body{
     font-size: 300%;
     font-weight: 700px;
     display: block;
-    margin-left: 45%;
+    margin-left: 47%;
     margin-top: 13%;
     text-decoration: underline #010012;
     position: absolute;
 }
 
-#continuar:hover {
+#voltar:hover {
     border: 2px solid #ffffff;
 }
 
@@ -42,7 +42,7 @@ body{
     font-weight: 100;
     display: inline-block;
     position: relative;
-    margin: 1% 0 0 30%;
+    margin: 1% 0 0 33%;
 }
 
 #linha{
@@ -51,5 +51,5 @@ body{
     font-weight: 100;
     display: inline-block;
     position: relative;
-    margin: 12% 0 0 30%;
+    margin: 10% 0 0 33%;
 }

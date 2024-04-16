@@ -2,12 +2,12 @@ body{
     background-color: #010012;
 }
 
-#bar{
+#floresta{
     width: 45%;
-    opacity: 50%;
+    opacity: 80%;
     position: absolute;
     margin-left: 25%;
-    margin-top: 3%;
+    margin-top: 6%;
 }
 
 @font-face {
@@ -27,7 +27,7 @@ body{
     font-weight: 700px;
     display: block;
     margin-left: 45%;
-    margin-top: 13%;
+    margin-top: 2%;
     text-decoration: underline #010012;
     position: absolute;
 }
@@ -51,5 +51,5 @@ body{
     font-weight: 100;
     display: inline-block;
     position: relative;
-    margin: 12% 0 0 30%;
+    margin: 3% 0 0 30%;
 }

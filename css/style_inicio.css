@@ -3,7 +3,7 @@ body{
 }
 
 #mesa_homem{
-    width: 700px;
+    width: 50%;
     display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -25,31 +25,36 @@ h1{
     display: block;
 	margin-left: auto;
 	margin-right: auto;
-    border-radius: 10px;
+    border-radius: 10%;
     font-family: aesymatt;
     background-color: #ffffff;
     color: #010012;
-    font-size: 25px;
+    font-size: 170%;
     border: none;
     text-align: center;
-    width: 40px;
-    height: 50px;
+    width: 3%;
+    height: 40px;
 }
 
 #escolher {
     border: none;
     color: #ffffff;
-    padding: 7px 17px;
     background-color: #010012;
     cursor: pointer;
     font-family: aesymatt;
-    width: 160px;
+    width: 10%;
     height: 60px;
-    font-size: 30px;
+    font-size: 200%;
     display: block;
-    margin: 20px auto 0px auto;
+    margin: 1% auto 0px auto;
 }
 
 #escolher:hover {
     border: 2px solid #ffffff;
+}
+
+#fase{
+    margin-top: 3%;
+    font-size: 250%;
+    margin-left: 2%;
 }

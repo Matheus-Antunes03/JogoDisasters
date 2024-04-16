@@ -17,9 +17,9 @@ body {
 #nome {
     color: #ffffff;
     font-family: ancientModern;
-    font-size: 90px;
+    font-size: 800%;
     font-weight: 100;
-    margin: 100px 0px 0px 120px;
+    margin: 50% 0px 0px 40%;
 }
 
 p {
@@ -32,14 +32,13 @@ p {
 #botao {
     border: none;
     color: #ffffff;
-    padding: 10px 20px;
     background-color: #010012;
     cursor: pointer;
     font-family: aesymatt;
-    width: 160px;
-    height: 80px;
-    font-size: 30px;
-    margin: 100px 0px 0px 100px;
+    width: 45%;
+    height: 7%;
+    font-size: 300%;
+    margin: 45% 0 0 63%;
 }
 
 #botao:hover {
@@ -47,11 +46,27 @@ p {
 }
 
 #menu {
-    height: 608px;
-    margin-left: 130px;
+    width: 50%;
+    margin-left: 16%;
 }
 
 #container{
     display: flex;
     flex-direction: row;
+}
+
+#sobre{
+    border: none;
+    color: #ffffff;
+    background-color: #010012;
+    cursor: pointer;
+    font-family: aesymatt;
+    width: 40%;
+    height: 7%;
+    font-size: 300%;
+    margin: 10% 0 0 64%;
+}
+
+#sobre:hover{
+    border: 2px solid #ffffff;
 }
