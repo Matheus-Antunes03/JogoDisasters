@@ -39,7 +39,7 @@ body{
     background-color: #010012;
     cursor: pointer;
     font-family: aesymatt;
-    width: 15%;
+    width: 10%;
     height: 60px;
     font-size: 200%;
     display: block;
@@ -49,5 +49,5 @@ body{
 }
 
 #continuar:hover {
-    border: 2px solid #ffffff;
+    border: 5px solid #ffffff;
 }

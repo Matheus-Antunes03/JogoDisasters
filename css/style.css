@@ -42,7 +42,7 @@ p {
 }
 
 #botao:hover {
-    border: 2px solid #ffffff;
+    border: 5px solid #ffffff;
 }
 
 #menu {
@@ -68,5 +68,5 @@ p {
 }
 
 #sobre:hover{
-    border: 2px solid #ffffff;
+    border: 5px solid #ffffff;
 }
